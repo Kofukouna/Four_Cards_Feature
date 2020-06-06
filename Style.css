@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.p1 {
+    padding: 1.5rem;
+}
+/* Primary Color */
+    /* Red: hsl(0, 78%, 62%);
+    Cyan: hsl(180, 62%, 55%);
+    Orange: hsl(34, 97%, 64%);
+    Blue: hsl(212, 86%, 64%); */
+
+
+/* Neutral Color */
+    /* Very Dark Blue: hsl(234, 12%, 34%);
+    Grayish Blue: hsl(229, 6%, 66%);
+    Very Light Gray: hsl(0, 0%, 98%) */
+
+
+/* Container */
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+/* Content */
+.content {
+    text-align: center;
+    width: 40%;
+    margin: 3rem 0 2rem 0;
+}
+
+.content p {
+    margin: 1rem;
+}
+
+.content h1:first-child {
+    font-weight: 200;
+    font-size: 2.5rem;
+}
+
+.content h1:nth-child(2) {
+    font-size: 2.5rem;
+}
+
+/* Box */
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 100%;
+    margin-bottom: 3rem;
+    text-align: left;
+}
+
+.box {
+    font-size: 0.75rem;
+}
+
+.box-1 {
+    border-top: 3px solid hsl(180, 62%, 55%);
+    background-color: white;
+    flex: 1;
+    align-self: center;
+    height: 47%;
+    margin-right: 2rem;
+    box-shadow: 5px 5px 10px 1px rgba(66, 46, 46, 0.5);
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+
+.middle {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box-2 {
+    border-top: 3px solid hsl(0, 78%, 62%);
+    box-shadow: 5px 5px 10px 1px rgba(66, 46, 46, 0.5);
+    background-color: white;
+    height: 47%;
+    border-radius: 5px;
+}
+
+.box-3 {
+    border-top: 3px solid hsl(34, 97%, 64%);
+    box-shadow: 5px 5px 10px 1px rgba(66, 46, 46, 0.5);
+    background-color: white;
+    height: 47%;
+    border-radius: 5px;
+}
+
+
+.box-4 {
+    border-top: 3px solid hsl(212, 86%, 64%);
+    box-shadow: 5px 5px 10px 1px rgba(66, 46, 46, 0.5);
+    background-color: white;
+    flex: 1;
+    align-self: center;
+    height: 47%;
+    margin-left: 2rem;
+    border-radius: 5px;
+}
+
+.p1 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    position: relative;
+}
+.sub-box {
+    height: 90px;
+}
+img {
+    align-self: flex-end;
+}
+
+footer {
+    display: none;
+}
